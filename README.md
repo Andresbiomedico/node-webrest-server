@@ -16,8 +16,14 @@ npx prisma init --datasource-provider postgresql
 
 5. creamos los modelos 
 
-6 corremos el comando
+6. corremos el comando
 
 ``` 
 npx prisma migrate dev --name init
+```
+
+7. corremos el comando para correr las migraciones 
+
+``` 
+prisma migrate deploy
 ```
